@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <com.cisetech.swipemenudemo.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/id_pr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.cisetech.swipemenudemo.swipemenu.library.SwipeMenuListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.cisetech.swipemenudemo.pulltorefresh.library.PullToRefreshScrollView>
+
+</RelativeLayout>
